@@ -17,9 +17,8 @@ def clear(): return os.system('cls')
 
 def intro():
     print(f"{Style.RESET_ALL}{Fore.GREEN}Excel Data Analyzer Tool{Fore.RESET}")
-    print(
-        f"Produced for {Fore.LIGHTBLUE_EX}Change {Fore.RED}Healthcare{Fore.RESET}")
-    print(f"Made by {Fore.YELLOW}Chaitanya Yedumbaka{Fore.RESET}")
+    # print(f"Produced for {Fore.LIGHTBLUE_EX}Change {Fore.RED}Healthcare{Fore.RESET}")
+    print(f"Made by {Fore.YELLOW}Kartik Yedumbaka{Fore.RESET}")
     print("\n")
 
 

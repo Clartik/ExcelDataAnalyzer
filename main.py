@@ -219,10 +219,10 @@ cmdCompareButton = Button(
     compareFrame, text="Console Interface?", style="W.TButton", command=cmdCompareCommand)
 cmdCompareButton.place(relx=0.01, rely=0.985, anchor=SW)
 
-companyLabel = Label(root, text="Made For Change Healthcare Use")
-companyLabel.place(relx=1, rely=0, anchor=NE)
+# companyLabel = Label(root, text="Made For Change Healthcare Use")
+# companyLabel.place(relx=1, rely=0, anchor=NE)
 
-nameLabel = Label(compareFrame, text="Made By Chaitanya Yedumbaka")
+nameLabel = Label(compareFrame, text="Made By Kartik Yedumbaka")
 nameLabel.place(relx=1, rely=1, anchor=SE)
 
 
@@ -247,7 +247,7 @@ outputOpenButton = Button(outputFrame, text="Open",
                           style="W.TButton", command=openOutputFile)
 outputOpenButton.grid(row=3, column=0, padx=5, pady=(0, 5))
 
-nameLabel = Label(outputFrame, text="Made By Chaitanya Yedumbaka")
+nameLabel = Label(outputFrame, text="Made By Kartik Yedumbaka")
 nameLabel.place(relx=1, rely=1, anchor=SE)
 
 # How To Use Frame (Contains the How To Use Window Content)
